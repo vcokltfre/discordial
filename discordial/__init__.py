@@ -1,1 +1,1 @@
-from .gateway.gateway import GatewayClient
+from .gateway import gateway

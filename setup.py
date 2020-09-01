@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="discordial",
-    version="1.0.0",
+    version="1.0.2",
     author="vcokltfre",
     author_email="vcokltfre@gmail.com",
     description="A lightweight library for Discord",
