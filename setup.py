@@ -4,6 +4,10 @@ from setuptools import find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+requirements = []
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setuptools.setup(
     name="discordial",
     version="1.0.4",
@@ -14,6 +18,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/vcokltfre/discordial",
     packages=setuptools.find_packages(),
+    requirements=requirements,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
