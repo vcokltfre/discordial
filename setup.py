@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="discordial",
-    version="1.0.4",
+    version="1.0.5",
     author="vcokltfre",
     author_email="vcokltfre@gmail.com",
     description="A lightweight library for Discord",
