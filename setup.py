@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="vcokltfre",
+    name="discordial",
     version="1.0.0",
     author="vcokltfre",
     author_email="vcokltfre@gmail.com",
